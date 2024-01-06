@@ -28,7 +28,9 @@ cd quote-pls
 ```
 
 4. **Install Dependencies:**  
-```npm install```
+```
+npm install
+```
 
 5. **Run the Website:**  
 ```
