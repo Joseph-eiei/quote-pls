@@ -34,16 +34,16 @@
       <% if (locals.data) { %>
       <article class="card-item">
         <h2 class="card-activity">
-          <!-- Show Activity -->
+          <!-- Show Quote -->
           <%= data.quote %>
         </h2>
         <div class="card-info">
           <span class="card-type">
-            <!-- Show Activity type -->
+            <!-- Show Quote type -->
             By: <%= data.author  %>
           </span>
           <span class="card-participants">
-            <!-- participants: Show participant number -->
+            <!-- Show quote's author -->
             <%= data.type.charAt(0).toUpperCase() + data.type.slice(1)%>
             <span class="card-number"></span>
           </span>
